@@ -11,5 +11,5 @@ To create an 5-5 scheme on an input.png image with a custom expansion of 16 subp
 python loki.py input.png 5 --subpixels 16 --stride 4
 ```
 
-The default pixel expansion is the lowest possible, 2 ^ (n - 1), and the stride used to rearange the subpixels in a quad is isqrt(num. subpixels)
+The default pixel expansion is the lowest possible, *2 ^ (n - 1)*, and the stride used to rearange the subpixels in a quad is *isqrt(expansion factor)*
 Use --help for the other settings.
